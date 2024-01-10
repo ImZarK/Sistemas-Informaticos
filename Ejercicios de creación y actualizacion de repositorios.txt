@@ -1,0 +1,44 @@
+Ejercicio 1
+git config --global user.name
+git config --global user.email
+git config ..global color.ui
+git config --global --list
+
+Ejercicio 2
+git init libro
+git status
+ 
+Ejercicio 3
+git status
+echo. > indice.txt
+git add indice.txt
+echo "Capítulo 1: Introducción a Git" > indice.txt
+echo "Capítulo 2: Flujo de trabajo básico" >> indice.txt
+echo "Capítulo 3: Repositorios remotos" >> indice.txt
+echo "Capitulo 4: Repositorios remotos" >> indice.txt
+git  satus
+
+Ejercicio 4
+git commit -m "Añadido indice del libro"
+git status
+
+Ejercicio 5
+echo "Capítulo 1: Introducción a Git" > indice.txt
+echo "Capítulo 2: Flujo de trabajo básico" >> indice.txt
+echo "Capítulo 3: Gestión de ramas" >> indice.txt
+echo "Capítulo 4: Repositorios remotos" >> indice.txt
+git diff
+
+git commit -m  “Añadido
+capítulo 3 sobre gestión de ramas”
+
+EJERCICIO 6
+git diff
+git commit --amend -m "Añadido capítulo
+3 sobre gestión de ramas al índice"
+git diff
+
+
+
+
+
